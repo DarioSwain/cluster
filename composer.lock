@@ -4,12 +4,12 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5de13df81292ae86f15b7e249231d525",
-    "content-hash": "a0623bf554839b7eff4e8f4ef76067ea",
+    "hash": "f48052900632305fa64af12a3b94c768",
+    "content-hash": "ce289e2a4156389a5c0afa2597c702e0",
     "packages": [
         {
             "name": "dario_swain/dep",
-            "version": "0.1.x-dev",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DarioSwain/dep.git",
@@ -62,13 +62,13 @@
     "packages-dev": [],
     "aliases": [
         {
-            "alias": "0.1.x-dev",
-            "alias_normalized": "0.1.9999999.9999999-dev",
+            "alias": "0.1.0",
+            "alias_normalized": "0.1.0.0",
             "version": "dev-without_alias",
             "package": "dario_swain/main"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": {
         "dario_swain/main": 20
     },
