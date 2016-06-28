@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "02b185809e094090b427d36936b51f9c",
-    "content-hash": "71fab42e88c42861ff0ef154f11ea462",
+    "hash": "481e23184d0fd5c0029473be422c8bf3",
+    "content-hash": "b987e66811bff2bc4dd3d5b1d5860bdf",
     "packages": [
         {
             "name": "dario_swain/dep",
-            "version": "0.2.x-dev",
+            "version": "0.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DarioSwain/dep.git",
-                "reference": "56a8f14fe2c9af4987504893b031468f4a59664a"
+                "reference": "06909922b3ce3e0ae5a1d67d5599e3d47c86452f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DarioSwain/dep/zipball/56a8f14fe2c9af4987504893b031468f4a59664a",
-                "reference": "56a8f14fe2c9af4987504893b031468f4a59664a",
+                "url": "https://api.github.com/repos/DarioSwain/dep/zipball/06909922b3ce3e0ae5a1d67d5599e3d47c86452f",
+                "reference": "06909922b3ce3e0ae5a1d67d5599e3d47c86452f",
                 "shasum": ""
             },
             "require": {
-                "dario_swain/main": "~0.2.0"
+                "dario_swain/main": "~0.1.0"
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
@@ -32,7 +32,7 @@
                     "email": "dario_swain@yahoo.com"
                 }
             ],
-            "time": "2016-06-28 19:54:50"
+            "time": "2016-06-28 19:35:00"
         },
         {
             "name": "dario_swain/main",
@@ -65,9 +65,18 @@
         }
     ],
     "packages-dev": [],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "0.1.x-dev",
+            "alias_normalized": "0.1.9999999.9999999-dev",
+            "version": "0.2.9999999.9999999-dev",
+            "package": "dario_swain/main"
+        }
+    ],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "dario_swain/main": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
