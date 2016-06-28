@@ -4,12 +4,12 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "14188ca8ce14f8ad3a7d09146b5bc97d",
-    "content-hash": "4bccc2de50246e5724dcbaaa6f0b9cae",
+    "hash": "73b8a18826b9bb950328bc675b1cb0a6",
+    "content-hash": "4e8df0d5d60b88eb4f454cb0eb3ee185",
     "packages": [
         {
             "name": "dario_swain/dep",
-            "version": "0.1.x-dev",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DarioSwain/dep.git",
@@ -36,16 +36,16 @@
         },
         {
             "name": "dario_swain/main",
-            "version": "0.1.x-dev",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DarioSwain/main.git",
-                "reference": "50431ad16ee9d86cbabad377011dcffb0f2cfa9c"
+                "reference": "0868df9e1b640e5ff383bb3844acce5692757aea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DarioSwain/main/zipball/50431ad16ee9d86cbabad377011dcffb0f2cfa9c",
-                "reference": "50431ad16ee9d86cbabad377011dcffb0f2cfa9c",
+                "url": "https://api.github.com/repos/DarioSwain/main/zipball/0868df9e1b640e5ff383bb3844acce5692757aea",
+                "reference": "0868df9e1b640e5ff383bb3844acce5692757aea",
                 "shasum": ""
             },
             "type": "library",
@@ -61,12 +61,12 @@
                     "email": "dario_swain@yahoo.com"
                 }
             ],
-            "time": "2016-06-28 19:24:44"
+            "time": "2016-06-28 18:59:49"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,

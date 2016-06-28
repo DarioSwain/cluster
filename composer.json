@@ -1,6 +1,6 @@
 {
   "name": "dario_swain/cluster",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "authors": [
     {
       "name": "Ilya Pokamestov",
