@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "481e23184d0fd5c0029473be422c8bf3",
-    "content-hash": "b987e66811bff2bc4dd3d5b1d5860bdf",
+    "hash": "5de13df81292ae86f15b7e249231d525",
+    "content-hash": "a0623bf554839b7eff4e8f4ef76067ea",
     "packages": [
         {
             "name": "dario_swain/dep",
@@ -36,24 +36,19 @@
         },
         {
             "name": "dario_swain/main",
-            "version": "0.2.x-dev",
+            "version": "dev-without_alias",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DarioSwain/main.git",
-                "reference": "2ef51cb7b46b503a65b04c76d983a09c249c5232"
+                "reference": "65f635c9d67f73be041fb6c767c175a936e0935f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DarioSwain/main/zipball/2ef51cb7b46b503a65b04c76d983a09c249c5232",
-                "reference": "2ef51cb7b46b503a65b04c76d983a09c249c5232",
+                "url": "https://api.github.com/repos/DarioSwain/main/zipball/65f635c9d67f73be041fb6c767c175a936e0935f",
+                "reference": "65f635c9d67f73be041fb6c767c175a936e0935f",
                 "shasum": ""
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.2.x-dev"
-                }
-            },
             "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
@@ -61,7 +56,7 @@
                     "email": "dario_swain@yahoo.com"
                 }
             ],
-            "time": "2016-06-28 19:36:55"
+            "time": "2016-06-28 20:05:35"
         }
     ],
     "packages-dev": [],
@@ -69,7 +64,7 @@
         {
             "alias": "0.1.x-dev",
             "alias_normalized": "0.1.9999999.9999999-dev",
-            "version": "0.2.9999999.9999999-dev",
+            "version": "dev-without_alias",
             "package": "dario_swain/main"
         }
     ],

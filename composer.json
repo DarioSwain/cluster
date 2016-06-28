@@ -8,7 +8,7 @@
     }
   ],
   "require": {
-    "dario_swain/main": "0.2.x-dev as 0.1.x-dev",
+    "dario_swain/main": "dev-without_alias as 0.1.x-dev",
     "dario_swain/dep": "~0.1.0"
   }
 }
