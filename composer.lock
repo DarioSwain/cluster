@@ -1,0 +1,75 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "14188ca8ce14f8ad3a7d09146b5bc97d",
+    "content-hash": "4bccc2de50246e5724dcbaaa6f0b9cae",
+    "packages": [
+        {
+            "name": "dario_swain/dep",
+            "version": "0.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DarioSwain/dep.git",
+                "reference": "06909922b3ce3e0ae5a1d67d5599e3d47c86452f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DarioSwain/dep/zipball/06909922b3ce3e0ae5a1d67d5599e3d47c86452f",
+                "reference": "06909922b3ce3e0ae5a1d67d5599e3d47c86452f",
+                "shasum": ""
+            },
+            "require": {
+                "dario_swain/main": "~0.1.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Ilya Pokamestov",
+                    "email": "dario_swain@yahoo.com"
+                }
+            ],
+            "time": "2016-06-28 19:35:00"
+        },
+        {
+            "name": "dario_swain/main",
+            "version": "0.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DarioSwain/main.git",
+                "reference": "50431ad16ee9d86cbabad377011dcffb0f2cfa9c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DarioSwain/main/zipball/50431ad16ee9d86cbabad377011dcffb0f2cfa9c",
+                "reference": "50431ad16ee9d86cbabad377011dcffb0f2cfa9c",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Ilya Pokamestov",
+                    "email": "dario_swain@yahoo.com"
+                }
+            ],
+            "time": "2016-06-28 19:24:44"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
