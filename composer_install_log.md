@@ -3,12 +3,10 @@ You are running composer with xdebug enabled. This has a major impact on runtime
 Running composer as root/super user is highly discouraged as packages, plugins and scripts cannot always be trusted
 Loading composer repositories with package information
 Updating dependencies (including require-dev)
-Your requirements could not be resolved to an installable set of packages.
+  - Removing dario_swain/main (0.3.0)
+  - Installing dario_swain/main (dev-release/7.x-0.3 3851398)
+    Cloning 3851398e78513b7a7447963cfec3a3559a42a4e4
 
-  Problem 1
-    - dario_swain/dep 0.3.x-dev requires dario_swain/main ~0.3.0 -> satisfiable by dario_swain/main[0.3.0] but these conflict with your requirements or minimum-stability.
-    - dario_swain/dep 0.3.0 requires dario_swain/main ~0.3.0 -> satisfiable by dario_swain/main[0.3.0] but these conflict with your requirements or minimum-stability.
-    - dario_swain/dep 0.3.x-dev requires dario_swain/main ~0.3.0 -> satisfiable by dario_swain/main[0.3.0] but these conflict with your requirements or minimum-stability.
-    - Installation request for dario_swain/dep ~0.3.0 -> satisfiable by dario_swain/dep[0.3.0, 0.3.x-dev].
-
+Writing lock file
+Generating autoload files
 root@dev:/var/www/github/cluster#
