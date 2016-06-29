@@ -1,12 +1,14 @@
-root@epam:/var/www/github/cluster# composer update
+root@dev:/var/www/github/cluster# composer update
+You are running composer with xdebug enabled. This has a major impact on runtime performance. See https://getcomposer.org/xdebug
 Running composer as root/super user is highly discouraged as packages, plugins and scripts cannot always be trusted
 Loading composer repositories with package information
 Updating dependencies (including require-dev)
-  - Installing dario_swain/main (dev-without_alias 65f635c)
-    Cloning 65f635c9d67f73be041fb6c767c175a936e0935f
+Your requirements could not be resolved to an installable set of packages.
 
-  - Installing dario_swain/dep (0.1.0)
-    Downloading: 100%
+  Problem 1
+    - dario_swain/dep 0.3.x-dev requires dario_swain/main ~0.3.0 -> satisfiable by dario_swain/main[0.3.0] but these conflict with your requirements or minimum-stability.
+    - dario_swain/dep 0.3.0 requires dario_swain/main ~0.3.0 -> satisfiable by dario_swain/main[0.3.0] but these conflict with your requirements or minimum-stability.
+    - dario_swain/dep 0.3.x-dev requires dario_swain/main ~0.3.0 -> satisfiable by dario_swain/main[0.3.0] but these conflict with your requirements or minimum-stability.
+    - Installation request for dario_swain/dep ~0.3.0 -> satisfiable by dario_swain/dep[0.3.0, 0.3.x-dev].
 
-Generating autoload files
-root@epam:/var/www/github/cluster#
+root@dev:/var/www/github/cluster#

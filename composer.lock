@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f48052900632305fa64af12a3b94c768",
-    "content-hash": "ce289e2a4156389a5c0afa2597c702e0",
+    "hash": "6bfd48fa83503575c5926cb4bde58232",
+    "content-hash": "f50ddeaf742d6e94666401198a158023",
     "packages": [
         {
             "name": "dario_swain/dep",
-            "version": "0.1.0",
+            "version": "0.3.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DarioSwain/dep.git",
-                "reference": "06909922b3ce3e0ae5a1d67d5599e3d47c86452f"
+                "reference": "02edb7e44c13f3e2879b9905b85bc8477a37561b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DarioSwain/dep/zipball/06909922b3ce3e0ae5a1d67d5599e3d47c86452f",
-                "reference": "06909922b3ce3e0ae5a1d67d5599e3d47c86452f",
+                "url": "https://api.github.com/repos/DarioSwain/dep/zipball/02edb7e44c13f3e2879b9905b85bc8477a37561b",
+                "reference": "02edb7e44c13f3e2879b9905b85bc8477a37561b",
                 "shasum": ""
             },
             "require": {
-                "dario_swain/main": "~0.1.0"
+                "dario_swain/main": "~0.3.0"
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
@@ -32,23 +32,28 @@
                     "email": "dario_swain@yahoo.com"
                 }
             ],
-            "time": "2016-06-28 19:35:00"
+            "time": "2016-06-29 12:10:48"
         },
         {
             "name": "dario_swain/main",
-            "version": "dev-without_alias",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DarioSwain/main.git",
-                "reference": "65f635c9d67f73be041fb6c767c175a936e0935f"
+                "reference": "1e1d6a08d2b746b7aeb7d7947825d8237a94d6b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DarioSwain/main/zipball/65f635c9d67f73be041fb6c767c175a936e0935f",
-                "reference": "65f635c9d67f73be041fb6c767c175a936e0935f",
+                "url": "https://api.github.com/repos/DarioSwain/main/zipball/1e1d6a08d2b746b7aeb7d7947825d8237a94d6b3",
+                "reference": "1e1d6a08d2b746b7aeb7d7947825d8237a94d6b3",
                 "shasum": ""
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3.x-dev"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
@@ -56,22 +61,13 @@
                     "email": "dario_swain@yahoo.com"
                 }
             ],
-            "time": "2016-06-28 20:05:35"
+            "time": "2016-06-28 19:42:37"
         }
     ],
     "packages-dev": [],
-    "aliases": [
-        {
-            "alias": "0.1.0",
-            "alias_normalized": "0.1.0.0",
-            "version": "dev-without_alias",
-            "package": "dario_swain/main"
-        }
-    ],
-    "minimum-stability": "stable",
-    "stability-flags": {
-        "dario_swain/main": 20
-    },
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

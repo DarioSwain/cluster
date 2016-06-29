@@ -1,6 +1,6 @@
 {
   "name": "dario_swain/cluster",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Ilya Pokamestov",
@@ -8,7 +8,7 @@
     }
   ],
   "require": {
-    "dario_swain/main": "dev-without_alias as 0.1.0",
-    "dario_swain/dep": "~0.1.0"
+    "dario_swain/main": "dev-release/7.x-0.3",
+    "dario_swain/dep": "~0.3.0"
   }
 }
